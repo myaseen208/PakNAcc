@@ -1,0 +1,30 @@
+Package: PakNAcc
+Type: Package
+Title: Shiny App for National Accounts
+Version: 0.1.0
+Authors@R: c(
+              person(c("Muhammad"), "Yaseen", email = "myaseen208@gmail.com",        role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-5923-1714"))
+            , person("Zahid", "Asghar",  email = "g.zahid@gmail.com", role = "ctb")
+            )
+Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
+Description: Provides tools of analyze National Accounts data.
+Depends: R (>= 4.1)
+Imports: 
+  collapse,
+  DT,
+  htmltools,
+  magrittr,
+  rpivotTable,
+  shiny,
+  shinydashboard,
+  shinydashboardPlus
+Suggests: 
+    shinytest2,
+    testthat (>= 3.0.0)
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 7.3.2
+Encoding: UTF-8
+Config/testthat/edition: 3
+Note: School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA
+

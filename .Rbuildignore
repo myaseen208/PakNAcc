@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^docs$
+^altdoc$
+^_quarto$
+^CRAN-SUBMISSION$
