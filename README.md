@@ -12,7 +12,6 @@
     Faisalabad, Pakistan
 3.  [School of Economics, Quaid-i-Azam University, Islamabad,
     Pakistan](https://zahidasghar.com/)
-4.  
 
 ------------------------------------------------------------------------
 
@@ -78,14 +77,14 @@ To cite the methods in the package use:
 citation("PakNAcc")
 Please, support this project by citing it in your publications!
 
-  Yaseen M, Asghar Z(2024). _PakNAcc: Shiny App for
+  Yaseen M, Asghar Z, Dilber MA (2024). _PakNAcc: Shiny App for
   National Accounts_.
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
     title = {PakNAcc: Shiny App for National Accounts},
-    author = {Muhammad Yaseen and Zahid Asghar},
+    author = {Muhammad Yaseen and Zahid Asghar and Muhammad Arfan Dilber},
     year = {2024},
     journal = {The Comprehensive R Archive Network (CRAN)},
   }

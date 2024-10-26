@@ -3,10 +3,15 @@ server <- function(input = input, output = output, session = NULL) {
   
   dataInput <- reactive({
     switch(input$dataset,
-          "NACurrent"   = readRDS(file = system.file("extdata", "NACurrent.RDS", package = "NationalAccountsApp")),
-         "NAConstant"  = readRDS(file = system.file("extdata", "NAConstant.RDS", package = "NationalAccountsApp")),
-         "GNICurrent"  = readRDS(file = system.file("extdata", "GNICurrent.RDS", package = "NationalAccountsApp")),
-         "GNIConstant" = readRDS(file = system.file("extdata", "GNIConstant.RDS", package = "NationalAccountsApp"))
+         "NACurrent"   = readRDS(file = "NACurrent.RDS"),
+         "NAConstant"  = readRDS(file = "NAConstant.RDS"),
+         "GNICurrent"  = readRDS(file = "GNICurrent.RDS"),
+         "GNIConstant" = readRDS(file = "GNIConstant.RDS")
+         
+         # "NACurrent"   = readRDS(file = system.file("extdata", "NACurrent.RDS",   package = "PakNAcc")),
+         # "NAConstant"  = readRDS(file = system.file("extdata", "NAConstant.RDS",  package = "PakNAcc")),
+         # "GNICurrent"  = readRDS(file = system.file("extdata", "GNICurrent.RDS",  package = "PakNAcc")),
+         # "GNIConstant" = readRDS(file = system.file("extdata", "GNIConstant.RDS", package = "PakNAcc"))
     )
   })
   

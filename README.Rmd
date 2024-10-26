@@ -21,7 +21,6 @@ knitr::opts_chunk$set(
 1. [School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA](https://www.clemson.edu/science/academics/departments/mathstat/about/profiles/myaseen)
 2. Department of Mathematics and Statistics, University of Agriculture Faisalabad, Pakistan
 3. [School of Economics, Quaid-i-Azam University, Islamabad, Pakistan](https://zahidasghar.com/)
-4. 
 
 ***
 
