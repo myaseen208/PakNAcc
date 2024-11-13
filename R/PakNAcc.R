@@ -2,7 +2,8 @@
 #'
 #' @description Shiny App for National Accounts
 #' 
-#'
+#' @return Pivot tables and graphs for Pakistan's Quarterly National Accounts data
+#' 
 #' @import collapse  htmltools magrittr rpivotTable shiny
 #' @importFrom DT DTOutput datatable formatCurrency renderDT
 #' @importFrom shinydashboard sidebarMenu

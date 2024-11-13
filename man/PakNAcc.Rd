@@ -6,6 +6,9 @@
 \usage{
 PakNAcc()
 }
+\value{
+Pivot tables and graphs for Pakistan's Quarterly National Accounts data
+}
 \description{
 Shiny App for National Accounts
 }
